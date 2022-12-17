@@ -16,6 +16,8 @@ Implemented functions:
 - `sheldonprime(n)`: Returns True if number n is a sheldon prime. Checkout the definition of sheldon prime to more info.
 - `prime(nth)`: Returns nth prime number. In case nth < 1, returns None.
 
+Also is featured the primality test (in this case, Solovay-Strassen primality test). It is a randomised probabilistic test, so it can verify if a number is prime. it is very efficient and it is used in the `primality_test` file.
+
 Other functions:
 - `notfactors(list)`: Returns True if no number in list is factor of n.
 - `factorsproduct(list)`: Returns the product of all elements of a list in a recursive way. Returns a float.
